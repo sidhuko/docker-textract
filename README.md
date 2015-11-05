@@ -8,7 +8,7 @@ Based on debian:wheezy image to support [Textract](https://github.com/dbashford/
 ``` docker build -t sidhuko/textract . ```
 
 ## SSH
-``` docker run -t -i sidhuko/textract /bin/bash```
+``` docker run -name textract -t -i sidhuko/textract /bin/bash```
 
 
 ## Packages
@@ -17,7 +17,8 @@ We install the following packages within our image.
 * [catdoc](http://www.wagner.pp.ru/%7Evitus/software/catdoc/)
 * [pdftotext](http://www.foolabs.com/xpdf/download.html)
 * [tesseract](http://code.google.com/p/tesseract-ocr/)
-* [drawingtotext](https://github.com/davidworkman9/drawingtotext)
+
+Currently not supporting [drawingtotext](https://github.com/davidworkman9/drawingtotext).
 
 
 ## Useful commands
