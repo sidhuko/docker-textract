@@ -7,10 +7,6 @@ Based on debian:wheezy image to support [Textract](https://github.com/dbashford/
 ## Build
 ``` docker build -t sidhuko/textract . ```
 
-## SSH
-``` docker run -name textract -t -i sidhuko/textract /bin/bash```
-
-
 ## Packages
 We install the following packages within our image.
 
